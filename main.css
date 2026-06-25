@@ -1,0 +1,61 @@
+html {
+  scroll-behavior: smooth; /* smooth scrolling */
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  transition: 0.3s;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #222;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.hero-text {
+  margin-left: 30px;
+}
+
+/* Sections */
+.section {
+  padding: 60px;
+  text-align: center;
+}
+
+/* Dark Mode */
+.dark {
+  background: #111;
+  color: white;
+}
